@@ -17,28 +17,22 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Advanced restart options -->
     <string name="advanced_reboot_title">Reinicio avanzado</string>
     <string name="advanced_reboot_summary">Desbloqueado, inclúe opcións no menú de apagado para reiniciar no modo recuperación ou cargador de arranque</string>
-    <!-- App ops permissions -->
     <string name="app_ops_permissions_allowed">Permitido</string>
     <string name="app_ops_permissions_ignored">Non permitido</string>
     <string name="app_ops_permissions_always_ask">Preguntar sempre</string>
-    <!-- App ops detail -->
     <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (usados <xliff:g id="count">%2$s</xliff:g>)</string>
     <string name="app_ops_allowed_count">Permitido <xliff:g id="count" example="2 times">%s</xliff:g></string>
     <string name="app_ops_ignored_count">Non permitido <xliff:g id="count" example="2 times">%s</xliff:g></string>
     <string name="app_ops_both_count">Permitido <xliff:g id="count">%1$s</xliff:g>, non permitido <xliff:g id="count">%2$s</xliff:g></string>
     <string name="app_ops_no_blockable_permissions">Sen permisos dispoñibles para bloquear</string>
-    <!-- App ops menu options -->
     <string name="app_ops_show_user_apps">Amosar aplicacións do usuario</string>
     <string name="app_ops_show_system_apps">Amosar aplicacións do sistema</string>
     <string name="app_ops_reset_counters">Reiniciar os contadores de permitidos/non permitidos</string>
     <string name="app_ops_reset_confirm_title">Confirmar o reinicio de contadores</string>
     <string name="app_ops_reset_confirm_mesg">Está seguro de querer reiniciar os contadores?</string>
-    <!-- Memory -->
     <string name="memory_startup_apps_title">Aplicacións que se inician no arranque</string>
-    <!-- Names of categories of app ops tabs - extension of AOSP -->
     <string name="app_ops_categories_location">Lugar</string>
     <string name="app_ops_categories_personal">Persoal</string>
     <string name="app_ops_categories_messaging">Mensaxes</string>
@@ -48,7 +42,7 @@
     <string name="app_ops_categories_bootup">Execución</string>
     <string name="app_ops_categories_su">Acceso de superusuario</string>
     <string name="app_ops_categories_other">Outros</string>
-    <!-- User display names for app ops codes - extension of AOSP -->
+    <string name="app_ops_summaries_access_camera">acceder á cámara</string>
     <string name="app_ops_summaries_access_notifications">acceder ás notificacións</string>
     <string name="app_ops_summaries_activate_vpn">activar VPN</string>
     <string name="app_ops_summaries_add_voicemail">engadir mensaxe de voz</string>
@@ -56,12 +50,23 @@
     <string name="app_ops_summaries_assist_screenshot">asistente de captura de pantalla</string>
     <string name="app_ops_summaries_assist_structure">asistente de estrutura</string>
     <string name="app_ops_summaries_audio_accessibility_volume">volume do son de accesibilidade</string>
+    <string name="app_ops_summaries_auto_start">iniciar ao arrancar</string>
+    <string name="app_ops_summaries_bluetooth_scan">busca por Bluetooth</string>
+    <string name="app_ops_summaries_change_wallpaper">mudar o fondo de pantalla</string>
     <string name="app_ops_summaries_coarse_location">ubicación aproximada</string>
+    <string name="app_ops_summaries_delete_call_log">borrar o seu rexistro de chamadas</string>
+    <string name="app_ops_summaries_delete_contacts">borrar os seus contactos</string>
+    <string name="app_ops_summaries_delete_mms">borrar as súas mensaxes MMS</string>
+    <string name="app_ops_summaries_delete_sms">borrar as súas mensaxes SMS</string>
     <string name="app_ops_summaries_draw_on_top">debuxar na zona superior</string>
     <string name="app_ops_summaries_fine_location">ubicación exacta</string>
     <string name="app_ops_summaries_get_accounts">obter contas</string>
     <string name="app_ops_summaries_get_usage_stats">obter estatísticas sobre o uso da aplicación</string>
     <string name="app_ops_summaries_gps">GPS</string>
+    <string name="app_ops_summaries_install_packages">instalar paquetes</string>
+    <string name="app_ops_summaries_keep_device_awake">manter o seu dispositivo esperto</string>
+    <string name="app_ops_summaries_make_phone_call">realizar unha chamada de teléfono</string>
+    <string name="app_ops_summaries_manage_ipsec_tunnels">xestionar túneles ipsec</string>
     <string name="app_ops_summaries_mock_location">localización simulada</string>
     <string name="app_ops_summaries_modify_calendar">modificar o calendario</string>
     <string name="app_ops_summaries_modify_call_log">modificar o rexistro de chamadas</string>
@@ -74,6 +79,7 @@
     <string name="app_ops_summaries_phone_calls">responder chamadas de teléfono</string>
     <string name="app_ops_summaries_picture_in_picture">empregar imaxe sobre imaxe</string>
     <string name="app_ops_summaries_play_audio">reproducir son</string>
+    <string name="app_ops_summaries_post_notification">enviar unha notificación</string>
     <string name="app_ops_summaries_project_media">visualizar recursos multimedia</string>
     <string name="app_ops_summaries_read_calendar">ler o calendario</string>
     <string name="app_ops_summaries_read_call_log">ler o rexistro de chamadas</string>
@@ -81,22 +87,43 @@
     <string name="app_ops_summaries_read_clipboard">ler o portarretallos</string>
     <string name="app_ops_summaries_read_contacts">ler os contactos</string>
     <string name="app_ops_summaries_read_external_storage">ler o almacenamento externo</string>
+    <string name="app_ops_summaries_read_mms">ler as súas mensaxes MMS</string>
     <string name="app_ops_summaries_read_phone_numbers">ler números de teléfono</string>
     <string name="app_ops_summaries_read_phone_state">ler o estado do teléfono</string>
     <string name="app_ops_summaries_read_sms">ler SMS</string>
     <string name="app_ops_summaries_receive_sms">recibir SMS</string>
     <string name="app_ops_summaries_record_audio">gravar son</string>
+    <string name="app_ops_summaries_request_delete_packages">solicitar eliminación de paquetes</string>
     <string name="app_ops_summaries_run_in_background">abrir en segundo plano</string>
+    <string name="app_ops_summaries_scan_wifi">buscar redes Wi-Fi</string>
+    <string name="app_ops_summaries_send_mms">enviar unha mensaxe MMS</string>
     <string name="app_ops_summaries_send_sms">enviar SMS</string>
+    <string name="app_ops_summaries_start_at_bootup">iniciar ao arrancar</string>
+    <string name="app_ops_summaries_start_foreground">iniciar en primeiro plano</string>
+    <string name="app_ops_summaries_su">obter acceso como superusuario</string>
     <string name="app_ops_summaries_toast_window">amosar notificacións emerxentes</string>
+    <string name="app_ops_summaries_toggle_bluetooth">trocar o Bluetooth</string>
     <string name="app_ops_summaries_toggle_mobile_data">mudar os datos móbeis</string>
     <string name="app_ops_summaries_toggle_nfc">trocar NFC</string>
     <string name="app_ops_summaries_toggle_wifi">trocar wifi</string>
+    <string name="app_ops_summaries_turn_on_screen">acender a pantalla</string>
+    <string name="app_ops_summaries_use_alarm_volume">controlar o volume da alarma</string>
+    <string name="app_ops_summaries_use_audio_focus">controlar o foco de son</string>
+    <string name="app_ops_summaries_use_bluetooth_volume">controlar o volume do Bluetooth</string>
     <string name="app_ops_summaries_use_body_sensors">utilizar sensores do corpo</string>
     <string name="app_ops_summaries_use_fingerprint">utilizar a pegada dactilar</string>
+    <string name="app_ops_summaries_use_master_volume">controlar o volume global</string>
+    <string name="app_ops_summaries_use_media_buttons">empregar os botóns de multimedia</string>
+    <string name="app_ops_summaries_use_media_volume">controlar o volume de multimedia</string>
+    <string name="app_ops_summaries_use_notification_volume">controlar o volume das notificacións</string>
+    <string name="app_ops_summaries_use_ring_volume">controlar o volume do ton de chamada</string>
+    <string name="app_ops_summaries_use_vibrate">utilizar a resposta háptica</string>
+    <string name="app_ops_summaries_use_voice_volume">controlar o volume das chamadas de voz</string>
+    <string name="app_ops_summaries_wifi_change">mudar o estado da Wi-Fi</string>
     <string name="app_ops_summaries_write_external_storage">escribir no almacenamento externo</string>
+    <string name="app_ops_summaries_write_mms">escribir unha mensaxe MMS</string>
     <string name="app_ops_summaries_write_sms">escribir SMS</string>
-    <!-- User display names for app ops codes - extension of AOSP -->
+    <string name="app_ops_labels_access_camera">Acceder á cámara</string>
     <string name="app_ops_labels_access_notifications">Acceso ás notificacións</string>
     <string name="app_ops_labels_activate_vpn">Activar VPN</string>
     <string name="app_ops_labels_add_voicemail">Engadir mensaxe de voz</string>
@@ -104,12 +131,23 @@
     <string name="app_ops_labels_assist_screenshot">Asistente de captura de pantalla</string>
     <string name="app_ops_labels_assist_structure">Asistente de estrutura</string>
     <string name="app_ops_labels_audio_accessibility_volume">Volume do son de accesibilidade</string>
+    <string name="app_ops_labels_auto_start">Iniciar ao arrancar</string>
+    <string name="app_ops_labels_bluetooth_scan">Busca por Bluetooth</string>
+    <string name="app_ops_labels_change_wallpaper">Mudar o fondo de pantalla</string>
     <string name="app_ops_labels_coarse_location">Localización imprecisa</string>
+    <string name="app_ops_labels_delete_call_log">Eliminar o rexistro de chamadas</string>
+    <string name="app_ops_labels_delete_contacts">Eliminar os contactos</string>
+    <string name="app_ops_labels_delete_mms">Eliminar as mensaxes MMS</string>
+    <string name="app_ops_labels_delete_sms">Eliminar as mensaxes SMS</string>
     <string name="app_ops_labels_draw_on_top">Amosar enriba</string>
     <string name="app_ops_labels_fine_location">Localización precisa</string>
     <string name="app_ops_labels_get_accounts">Obter contas</string>
     <string name="app_ops_labels_get_usage_stats">Obter estatísticas de uso</string>
     <string name="app_ops_labels_gps">GPS</string>
+    <string name="app_ops_labels_install_packages">Instalar paquetes</string>
+    <string name="app_ops_labels_keep_device_awake">Manter o seu dispositivo esperto</string>
+    <string name="app_ops_labels_make_phone_call">Realizar unha chamada de teléfono</string>
+    <string name="app_ops_labels_manage_ipsec_tunnels">Xestionar túneles ipsec</string>
     <string name="app_ops_labels_mock_location">Localización simulada</string>
     <string name="app_ops_labels_modify_calendar">Modificar o calendario</string>
     <string name="app_ops_labels_modify_call_log">Modificar o rexistro de chamadas</string>
@@ -119,9 +157,11 @@
     <string name="app_ops_labels_monitor_high_power_location">Monitor de localización de alta precisión</string>
     <string name="app_ops_labels_monitor_location">Monitor de localización</string>
     <string name="app_ops_labels_mute_unmute_microphone">Activar/Desactivar micrófono</string>
+    <string name="app_ops_labels_neighboring_cells">Teléfonos próximos</string>
     <string name="app_ops_labels_phone_calls">Responder chamadas de teléfono</string>
     <string name="app_ops_labels_picture_in_picture">Empregar imaxe sobre imaxe</string>
     <string name="app_ops_labels_play_audio">Reproducir son</string>
+    <string name="app_ops_labels_post_notification">Enviar unha notificación</string>
     <string name="app_ops_labels_project_media">Visualizar recursos multimedia</string>
     <string name="app_ops_labels_read_calendar">Ler o calendario</string>
     <string name="app_ops_labels_read_call_log">Ler o rexistro de chamadas</string>
@@ -129,70 +169,78 @@
     <string name="app_ops_labels_read_clipboard">Ler o portarretallos</string>
     <string name="app_ops_labels_read_contacts">Ler os contactos</string>
     <string name="app_ops_labels_read_external_storage">Ler almacenamento externo</string>
+    <string name="app_ops_labels_read_mms">Ler as súas mensaxes MMS</string>
     <string name="app_ops_labels_read_phone_numbers">Ler números de teléfono</string>
     <string name="app_ops_labels_read_phone_state">Ler o estado do teléfono</string>
     <string name="app_ops_labels_read_sms">Ler SMS</string>
     <string name="app_ops_labels_receive_sms">Recibir SMS</string>
     <string name="app_ops_labels_record_audio">Gravar son</string>
+    <string name="app_ops_labels_request_delete_packages">Solicitar eliminación de paquetes</string>
+    <string name="app_ops_labels_run_any_in_background">Executar calquer proceso en segundo plano</string>
     <string name="app_ops_labels_run_in_background">Abrir en segundo plano</string>
+    <string name="app_ops_labels_scan_wifi">Buscar redes Wi-Fi</string>
+    <string name="app_ops_labels_send_mms">Enviar unha mensaxe MMS</string>
     <string name="app_ops_labels_send_sms">Enviar SMS</string>
+    <string name="app_ops_labels_start_at_bootup">Iniciar ao arrancar</string>
+    <string name="app_ops_labels_start_foreground">Iniciar en primeiro plano</string>
+    <string name="app_ops_labels_su">Obter acceso como root</string>
     <string name="app_ops_labels_toast_window">Amosar notificacións emerxentes</string>
+    <string name="app_ops_labels_toggle_bluetooth">Trocar bluetooh</string>
     <string name="app_ops_labels_toggle_mobile_data">Mudar os datos móbeis</string>
     <string name="app_ops_labels_toggle_nfc">Trocar NFC</string>
     <string name="app_ops_labels_toggle_wifi">Trocar wifi</string>
+    <string name="app_ops_labels_turn_on_screen">Acender a pantalla</string>
+    <string name="app_ops_labels_use_alarm_volume">Controlar o volume da alarma</string>
+    <string name="app_ops_labels_use_audio_focus">Controlar o foco de son</string>
+    <string name="app_ops_labels_use_bluetooth_volume">Controlar o volume do Bluetooth</string>
     <string name="app_ops_labels_use_body_sensors">Utilizar os sensores do corpo</string>
     <string name="app_ops_labels_use_fingerprint">Utilizar a pegada dactilar</string>
+    <string name="app_ops_labels_use_master_volume">Controlar o volume global</string>
+    <string name="app_ops_labels_use_media_buttons">Empregar os botóns de multimedia</string>
+    <string name="app_ops_labels_use_media_volume">Controlar o volume de multimedia</string>
+    <string name="app_ops_labels_use_notification_volume">Controlar o volume das notificacións</string>
+    <string name="app_ops_labels_use_ring_volume">Controlar o volume do ton de chamada</string>
+    <string name="app_ops_labels_use_vibrate">Utilizar a resposta háptica</string>
+    <string name="app_ops_labels_use_voice_volume">Controlar o volume das chamadas de voz</string>
+    <string name="app_ops_labels_wifi_change">Mudar o estado da Wi-Fi</string>
     <string name="app_ops_labels_write_external_storage">Escribir no almacenamento externo</string>
+    <string name="app_ops_labels_write_mms">Escribir unha mensaxe MMS</string>
     <string name="app_ops_labels_write_sms">Escribir SMS</string>
-    <!-- Sizes for pattern lockscreen -->
     <string name="lock_settings_picker_pattern_size_message">Escolle un tamaño para o patrón</string>
-    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
     <string name="lockpattern_settings_enable_error_path_title">Mostrar erro do padrón</string>
-    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Mostrar puntos do padrón</string>
-    <!-- Lock screen vibrate settings -->
     <string name="lockscreen_vibrate_enabled_title">Vibrar</string>
     <string name="lockscreen_vibrate_enabled_head">Vibrar ao desbloquear</string>
-    <!-- Android debugging -->
     <string name="adb_enable">Depuración de Android</string>
     <string name="adb_enable_summary">Activa a interface de depuración Android Debug Bridge (ADB)</string>
-    <!-- Android debugging notification -->
     <string name="adb_notify">Notificar de depuración</string>
     <string name="adb_notify_summary">Notifica cando está activada a depuración da rede ou o dispositivo USB</string>
-    <!-- Android debugging over network -->
     <string name="adb_over_network">ADB na rede</string>
     <string name="adb_over_network_summary">Activar a depuración TCP/IP sobre as interfaces de rede (Wi\u2011FI, redes USB). Esta configuración restabelecese ao reiniciar</string>
     <string name="adb_over_network_warning">AVISO: Cando está habilitado ADB sobre red, o dispositivo está aberto a intrusións en tódalas redes conectadas.\n\nUtilice esta función tan só cando estea conectado a redes de confianza.\n\nDe verdade desexa activar esta función?</string>
-    <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <plurals name="show_dev_countdown_cm">
         <item quantity="one">Está a <xliff:g id="step_count">%1$d</xliff:g> paso de activar a configuración de desenvolvemento.</item>
         <item quantity="other">Está a <xliff:g id="step_count">%1$d</xliff:g> pasos de activar a configuración de desenvolvemento.</item>
     </plurals>
-    <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
     <string name="show_dev_on_cm">Activou a configuración de desenvolvemento!</string>
-    <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
     <string name="show_dev_already_cm">Non fai falla, a configuración de desenvolvemento xa están activa.</string>
-    <!-- Device Info screen. LineageOS legal. -->
     <string name="lineagelicense_title">Licenza de LineageOS</string>
-    <!-- Double tap to sleep on status bar or lockscreen -->
     <string name="status_bar_double_tap_to_sleep_title">Tocar para suspender</string>
     <string name="status_bar_double_tap_to_sleep_summary">Duplo toque na barra de estado ou na pantalla de bloqueo para apagar a pantalla</string>
-    <!-- Hostname setting -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Localiza o sensor de pegadas dixitais na <xliff:g id="sensor_location">%1$s</xliff:g> do teu móbil.</string>
+    <string name="security_settings_fingerprint_sensor_location_back">parte posterior</string>
+    <string name="security_settings_fingerprint_sensor_location_front">parte frontal</string>
+    <string name="security_settings_fingerprint_sensor_location_left">cara esquerda</string>
+    <string name="security_settings_fingerprint_sensor_location_right">cara dereita</string>
     <string name="device_hostname">Nome do dispositivo</string>
-    <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Aumentando o volume de chamada</string>
     <string name="increasing_ring_min_volume_title">Volume inicial</string>
     <string name="increasing_ring_ramp_up_time_title">Intervalo de aumento</string>
-    <!-- Kill app long-press back -->
     <string name="kill_app_longpress_back">Terminar aplicación co botón Atrás</string>
     <string name="kill_app_longpress_back_summary">Peche a aplicación en primeiro plano mantendo presionado o botón Atrás</string>
-    <!-- Launch Dev Tools -->
     <string name="development_tools_title">Ferramentas de desenvolvemento</string>
-    <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">Amosar a portada do álbum</string>
-    <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_title">Amosar visualizador de música</string>
-    <!-- Manual provisioning support -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s </xliff:g> é <xliff:g id="status" example="disabled">%2$s </xliff:g></string>
     <string name="sim_disabled">desactivada</string>
     <string name="sim_missing">ausente ou defectuosa</string>
@@ -206,18 +254,14 @@
     <string name="sub_activate_failed">Fallou a activación.</string>
     <string name="sub_deactivate_success">SIM desactivada.</string>
     <string name="sub_deactivate_failed">Fallou a desactivación.</string>
-    <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_data">Datos móbiles</string>
     <string name="data_usage_app_restrict_data_summary">Activar o uso dos datos móbiles</string>
     <string name="data_usage_app_restrict_wifi">Datos Wi\u2011Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Activar o uso dos datos Wi\u2011Fi</string>
-    <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Disposición aleatoria</string>
     <string name="unlock_scramble_pin_layout_summary">Cambiar a disposición dos números do PIN para desbloquear o dispositivo</string>
-    <!-- Proximity wake -->
     <string name="proximity_wake_title">Previr acender de forma accidental</string>
     <string name="proximity_wake_summary">Comprobar o sensor de proximidade antes de acender a pantalla</string>
-    <!-- Setting checkbox title for root access -->
     <string name="root_access">Acceso root</string>
     <string name="root_access_warning_title">Permitir acceso root?</string>
     <string name="root_access_warning_message">Permitir que as aplicacións seleccionen acceso como superusuario é moi perigoso e podería pór en perigo a seguranza do sistema!</string>
@@ -225,20 +269,16 @@
     <string name="root_access_apps">Só aplicacións</string>
     <string name="root_access_adb">Só ADB</string>
     <string name="root_access_all">Aplicacións e ADB</string>
-    <!-- Preference link for root appops -->
     <string name="root_appops_title">Xestionar accesos root</string>
     <string name="root_appops_summary">Ver e xestionar as regras de root</string>
-    <!-- Touchscreen gesture settings -->
     <string name="touchscreen_gesture_settings_title">Xestos na pantalla táctil</string>
     <string name="touchscreen_gesture_settings_summary">Realizar varios xestos na pantalla para accións rápidas</string>
-    <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">Acender ao enchufar</string>
     <string name="wake_when_plugged_or_unplugged_summary">Acende a pantalla ao contectarse e desconectarse dunha fonte de enerxía</string>
-    <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">Alta sensibilidade</string>
     <string name="high_touch_sensitivity_summary">Aumentar a sensibilidade da pantalla para poder utilizalo con luvas</string>
-    <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">Pantalla táctil deslizante</string>
     <string name="touchscreen_hovering_summary">Permítelle utilizar o dedo coma un rato ao deslizalo en navegadores web, escritorios remotos, etc.</string>
-    <!-- Whether the keyguard will directly show the lock entry -->
+    <string name="directly_show_lock">Desbloqueo inmediato</string>
+    <string name="directly_show_lock_summary">Omitir o esvarado para desbloquear a pantalla e iniciar a introdución inmediata da clave</string>
 </resources>
